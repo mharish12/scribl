@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+subprojects {
+    apply plugin: 'java'
+    group = 'com.hq.scribl'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+    }
+}
